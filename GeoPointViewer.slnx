@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="GeoPointViewer.vcxproj" Id="c4dabd77-3c26-4093-902e-6e0b6e8d0589" />
+</Solution>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{1F5B8086-7440-49D2-A369-B93DF33D3AE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\interaction">
+      <UniqueIdentifier>{13F35B3D-1C67-4B32-A76D-02DC88F46C55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vulkan">
+      <UniqueIdentifier>{D2CE6A36-F679-4F2F-A899-C4F5D78658C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cache">
+      <UniqueIdentifier>{2B3D2444-5C6F-4F00-B4B7-2E8EFC87507D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\performance">
+      <UniqueIdentifier>{247603A4-A274-4AED-B346-1594A75BBECE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\profile">
+      <UniqueIdentifier>{EC7233F8-8B29-43C0-92FB-58A0AB4D4040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\core">
+      <UniqueIdentifier>{F8097167-5A32-4791-A738-C8533082E820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\interaction">
+      <UniqueIdentifier>{0D49DF72-0F36-4033-8FA2-9D2315E292C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vulkan">
+      <UniqueIdentifier>{C50D909E-C1C5-41C4-BBC0-9C775687D5DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\cache">
+      <UniqueIdentifier>{DBAC548D-5C10-4F08-91A7-1B02A3C97809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\performance">
+      <UniqueIdentifier>{32E6A0BB-61B2-4EA5-9F0C-3B1D4FD342DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\profile">
+      <UniqueIdentifier>{1B31E366-B502-4B80-A39B-CE480F64F668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{225B9F90-8D98-4F93-94DB-8137B72655E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文档">
+      <UniqueIdentifier>{52D7CE3E-AB9C-4683-B6E1-9E13D09DAB4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据">
+      <UniqueIdentifier>{BB15A379-2736-4E74-B904-F8937BAF598D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{f44f8887-e3ae-4b84-92cd-e2b886bcdf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="第三方依赖">
+      <UniqueIdentifier>{D27CDE59-8134-44E8-BF82-1D264929DCC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="第三方依赖\GLFW">
+      <UniqueIdentifier>{90429162-55E7-4909-805C-60E48433BE99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cache\GpuReadyPageCache.cpp">
+      <Filter>源文件\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cache\SeismicCacheReader.cpp">
+      <Filter>源文件\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cache\Viewport2D.cpp">
+      <Filter>源文件\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\App.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\CommandLineOptions.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\performance\PerformanceRecorder.cpp">
+      <Filter>源文件\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\profile\ProfileAnalysisService.cpp">
+      <Filter>源文件\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\VulkanBuffer.cpp">
+      <Filter>源文件\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\VulkanContext.cpp">
+      <Filter>源文件\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkan\VulkanShader.cpp">
+      <Filter>源文件\vulkan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cache\GpuReadyPageCache.h">
+      <Filter>头文件\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cache\SeismicCacheReader.h">
+      <Filter>头文件\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cache\SeismicCacheTypes.h">
+      <Filter>头文件\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cache\Viewport2D.h">
+      <Filter>头文件\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\App.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\AppConfig.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\CommandLineOptions.h">
+      <Filter>头文件\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interaction\BoxSelector.h">
+      <Filter>头文件\interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\performance\PerformanceRecorder.h">
+      <Filter>头文件\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\profile\ProfileAnalysisService.h">
+      <Filter>头文件\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\profile\ProfileTypes.h">
+      <Filter>头文件\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\VulkanBuffer.h">
+      <Filter>头文件\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\VulkanContext.h">
+      <Filter>头文件\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkan\VulkanShader.h">
+      <Filter>头文件\vulkan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\compile_hlsl.bat">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\pointcloud.frag.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\pointcloud.vert.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\page_cull.comp.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\page_pointcloud.vert.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\selection_overlay.frag.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\selection_overlay.vert.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\tile_proxy.vert.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shaders\hlsl\tile_cull.comp.hlsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
